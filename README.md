@@ -11,7 +11,7 @@
 - Para correr en local server: `rails s -p 3001 `
 
 
-### Objective
+## Objetivo
 
 •	El usuario debe autenticarse utilizando un nombre de usuario y password.
 •	El usuario debe poder ver un listado de productos.
