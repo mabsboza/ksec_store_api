@@ -9,7 +9,7 @@
 #  updated_at         :datetime         not null
 #
 class Category < ApplicationRecord
-  belong_to :product
+  # belong_to :product
 
   validates :name, presence: true
   auto_strip_attributes :name, :code

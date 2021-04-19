@@ -10,6 +10,11 @@
 #  quantity             :decimal(10, 2)   not null
 #  created_at           :datetime         not null
 #  updated_at           :datetime         not null
+#  categories_id        :bigint
+#
+# Indexes
+#
+#  index_products_on_categories_id  (categories_id)
 #
 class Product < ApplicationRecord
   has_one :category
